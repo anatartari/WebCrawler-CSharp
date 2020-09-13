@@ -24,13 +24,5 @@ namespace WebCrawlingConsole.Data
             this.Database.EnsureCreated();
         }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Book>()
-        //        .HasOne(i => i.Customer)
-        //        .WithMany(c => c.Invoices)
-        //        .IsRequired()
-        //        .OnDelete(DeleteBehavior.Cascade);
-        //}
     }
 }
