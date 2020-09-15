@@ -22,8 +22,11 @@ namespace WebCrawlingConsole
             {
                 books = startCrawSearch(books);
                 Console.WriteLine("\nDados coletados com sucesso!\n");
+
                 Console.WriteLine("\nSalvando na base de dados...\n");
+
                 saveInDataBase(books);
+
                 Console.WriteLine("\nOperacoes finalizadas com sucesso\n");
 
             }
